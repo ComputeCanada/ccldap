@@ -1,0 +1,24 @@
+dn: ou=People,dc=computecanada,dc=ca
+changetype: add
+ou: People
+objectClass: organizationalUnit
+objectClass: top
+
+dn: cn=Banana Man,ou=People,dc=computecanada,dc=ca
+changetype: add
+givenName: Banana
+sn: Man
+cn: Banana Man
+uid: banana
+uidNumber: 10000
+gidNumber: 10000
+homeDirectory: /home/banana
+loginShell: /bin/bash
+userPassword: {SSHA}Xex053ENe38al9Pa7yR9yNvZTzcsmb4W
+mail: banana@idptestbed.ca
+eduPersonUniqueId: banana
+eduPersonPrincipalName: banana.man
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: eduPerson
+objectClass: top
