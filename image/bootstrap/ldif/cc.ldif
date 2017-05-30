@@ -4,6 +4,12 @@ ou: People
 objectClass: organizationalUnit
 objectClass: top
 
+dn: ou=Group,dc=computecanada,dc=ca
+changetype: add
+ou: Group
+objectClass: top
+objectClass: organizationalUnit
+
 dn: cn=Banana Man,ou=People,dc=computecanada,dc=ca
 changetype: add
 givenName: Banana
