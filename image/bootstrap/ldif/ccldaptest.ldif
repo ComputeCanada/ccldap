@@ -1,0 +1,1078 @@
+dn: ou=People,dc=computecanada,dc=ca
+changetype: add
+ou: People
+objectClass: organizationalUnit
+objectClass: top
+
+dn: ou=Group,dc=computecanada,dc=ca
+changetype: add
+ou: Group
+objectClass: top
+objectClass: organizationalUnit
+
+dn: cn=Banana Man,ou=People,dc=computecanada,dc=ca
+changetype: add
+givenName: Banana
+sn: Man
+cn: Banana Man
+uid: banana
+uidNumber: 10000
+gidNumber: 10000
+homeDirectory: /home/banana
+loginShell: /bin/bash
+userPassword:: e1NTSEF9WGV4MDUzRU5lMzhhbDlQYTd5Ujl5TnZaVHpjc21iNFc=
+mail: banana@idptestbed.ca
+eduPersonUniqueId: banana
+eduPersonPrincipalName: banana.man
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: eduPerson
+objectClass: top
+
+dn: uid=u000257,ou=People,dc=computecanada,dc=ca
+changetype: add
+uid: u000257
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: inetOrgPerson
+objectClass: ccAccount
+objectClass: ccPerson
+cn: Johniw Faculty
+sn: Faculty
+givenName: Johniw
+mail: user257@some-uni.ca
+telephoneNumber: 780-426-5050
+uidNumber: 3000257
+gidNumber: 3000257
+homeDirectory: /home/u000257
+o: Grid of ix: U of ix
+title: Faculty
+employeeType: faculty
+employeeNumber: aaa-257
+preferredLanguage: en
+ccPrimaryEmail: user257@some-uni.ca
+cci: aaa-257
+ccCertSubject: /C=CA/O=computecanada/OU=People/CN=Johniw Faculty aaa-257
+ccSupportAgreement: all
+userPassword:: e0NSWVBUfUJPR1VTLUlOQUNUSVZF
+loginShell: /sbin/nologin
+shadowExpire: 1
+
+dn: cn=u000257,ou=Group,dc=computecanada,dc=ca
+changetype: add
+cn: u000257
+objectClass: posixGroup
+gidNumber: 3000257
+
+dn: uid=u000753,ou=People,dc=computecanada,dc=ca
+changetype: add
+uid: u000753
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: inetOrgPerson
+objectClass: ccAccount
+objectClass: ccPerson
+cn: Johnaby Phd
+sn: Phd
+givenName: Johnaby
+mail: user753@some-uni.ca
+telephoneNumber: 780-426-5050
+uidNumber: 3000753
+gidNumber: 3000753
+homeDirectory: /home/u000753
+o: Grid of aqp: U of apc
+title: Doctoral Student
+employeeNumber: aaa-753
+preferredLanguage: en
+ccPrimaryEmail: user753@some-uni.ca
+cci: aaa-753
+ccCertSubject: /C=CA/O=computecanada/OU=People/CN=Johnaby Phd aaa-753
+userPassword:: e0NSWVBUfUJPR1VTLUlOQUNUSVZF
+loginShell: /sbin/nologin
+shadowExpire: 1
+
+dn: cn=u000753,ou=Group,dc=computecanada,dc=ca
+changetype: add
+cn: u000753
+objectClass: posixGroup
+gidNumber: 3000753
+
+dn: uid=u000756,ou=People,dc=computecanada,dc=ca
+changetype: add
+uid: u000756
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: inetOrgPerson
+objectClass: ccAccount
+objectClass: ccPerson
+cn: Johnacb Phd
+sn: Phd
+givenName: Johnacb
+mail: user756@some-uni.ca
+telephoneNumber: 780-426-5050
+uidNumber: 3000756
+gidNumber: 3000756
+homeDirectory: /home/u000756
+o: Grid of aqt: U of apg
+title: Postdoctoral Fellow
+employeeNumber: aaa-756
+preferredLanguage: en
+ccPrimaryEmail: user756@some-uni.ca
+cci: aaa-756
+ccCertSubject: /C=CA/O=computecanada/OU=People/CN=Johnacb Phd aaa-756
+userPassword:: e0NSWVBUfUJPR1VTLUlOQUNUSVZF
+loginShell: /sbin/nologin
+shadowExpire: 1
+
+dn: cn=u000756,ou=Group,dc=computecanada,dc=ca
+changetype: add
+cn: u000756
+objectClass: posixGroup
+gidNumber: 3000756
+
+dn: uid=u000760,ou=People,dc=computecanada,dc=ca
+changetype: add
+uid: u000760
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: inetOrgPerson
+objectClass: ccAccount
+objectClass: ccPerson
+cn: Johnacf Phd
+sn: Phd
+givenName: Johnacf
+mail: user761@some-uni.ca
+telephoneNumber: 780-426-5050
+uidNumber: 3000760
+gidNumber: 3000760
+homeDirectory: /home/u000760
+o: Grid of ard: U of apq
+title: Doctoral Student
+employeeType: phd
+employeeNumber: aaa-760
+preferredLanguage: en
+ccPrimaryEmail: user761@some-uni.ca
+cci: aaa-760
+ccCertSubject: /C=CA/O=computecanada/OU=People/CN=Johnacf Phd aaa-760
+userPassword:: e0NSWVBUfUJPR1VTLUlOQUNUSVZF
+loginShell: /sbin/nologin
+shadowExpire: 1
+
+dn: cn=u000760,ou=Group,dc=computecanada,dc=ca
+changetype: add
+cn: u000760
+objectClass: posixGroup
+gidNumber: 3000760
+
+dn: uid=u000766,ou=People,dc=computecanada,dc=ca
+changetype: add
+uid: u000766
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: inetOrgPerson
+objectClass: ccAccount
+objectClass: ccPerson
+cn: Johnacl Faculty
+sn: Faculty
+givenName: Johnacl
+mail: user766@some-uni.ca
+telephoneNumber: 780-426-5050
+uidNumber: 3000766
+gidNumber: 3000766
+homeDirectory: /home/u000766
+o: Grid of arg: U of apt
+title: Faculty
+employeeNumber: aaa-766
+preferredLanguage: en
+ccPrimaryEmail: user766@some-uni.ca
+cci: aaa-766
+ccCertSubject: /C=CA/O=computecanada/OU=People/CN=Johnacl Faculty aaa-766
+userPassword:: e0NSWVBUfUJPR1VTLUlOQUNUSVZF
+loginShell: /sbin/nologin
+shadowExpire: 1
+
+dn: cn=u000766,ou=Group,dc=computecanada,dc=ca
+changetype: add
+cn: u000766
+objectClass: posixGroup
+gidNumber: 3000766
+
+dn: uid=u000768,ou=People,dc=computecanada,dc=ca
+changetype: add
+uid: u000768
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: inetOrgPerson
+objectClass: ccAccount
+objectClass: ccPerson
+cn: Johnacn Phd
+sn: Phd
+givenName: Johnacn
+mail: user769@some-uni.ca
+telephoneNumber: 780-426-5050
+uidNumber: 3000768
+gidNumber: 3000768
+homeDirectory: /home/u000768
+o: Grid of aro: U of aqb
+title: Doctoral Student
+employeeNumber: aaa-768
+preferredLanguage: en
+ccPrimaryEmail: user769@some-uni.ca
+cci: aaa-768
+ccCertSubject: /C=CA/O=computecanada/OU=People/CN=Johnacn Phd aaa-768
+userPassword:: e0NSWVBUfUJPR1VTLUlOQUNUSVZF
+loginShell: /sbin/nologin
+shadowExpire: 1
+
+dn: cn=u000768,ou=Group,dc=computecanada,dc=ca
+changetype: add
+cn: u000768
+objectClass: posixGroup
+gidNumber: 3000768
+
+dn: uid=username1-canfar,ou=People,dc=computecanada,dc=ca
+changetype: add
+uid: username1-canfar
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: ccAccount
+uidNumber: 9000000
+cn: Joe Blow1
+sn: Blow1
+userPassword:: e2NyeXB0fXJhbmRvbV9zdHVmZg==
+gidNumber: 9000000
+homeDirectory: /sbin/nologin
+loginShell: /sbin/nologin
+ccPrimaryEmail: canfar@uvic.ca
+ccServiceAccess: west-cloud
+shadowExpire: -1
+
+dn: uid=u001033,ou=People,dc=computecanada,dc=ca
+changetype: add
+uid: u001033
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: inetOrgPerson
+objectClass: ccAccount
+objectClass: ccPerson
+cn: Johnama Faculty
+sn: Faculty
+givenName: Johnama
+mail: user1033@some-uni.ca
+telephoneNumber: 780-426-5050
+uidNumber: 3001033
+gidNumber: 3001033
+homeDirectory: /home/u001033
+o: Grid of bkx: U of bhg
+title: Faculty
+employeeType: faculty
+employeeNumber: aab-033
+preferredLanguage: en
+ccPrimaryEmail: user1033@some-uni.ca
+cci: aab-033
+ccCertSubject: /C=CA/O=computecanada/OU=People/CN=Johnama Faculty aab-033
+loginShell: /sbin/nologin
+shadowExpire: 1
+userPassword:: e0NSWVBUfUJPR1VTLUlOQUNUSVZF
+
+dn: cn=u001033,ou=Group,dc=computecanada,dc=ca
+changetype: add
+cn: u001033
+objectClass: posixGroup
+gidNumber: 3001033
+
+dn: uid=u001446,ou=People,dc=computecanada,dc=ca
+changetype: add
+uid: u001446
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: inetOrgPerson
+objectClass: ccAccount
+objectClass: ccPerson
+cn: Johnbbx Faculty
+sn: Faculty
+givenName: Johnbbx
+mail: user1446@some-uni.ca
+telephoneNumber: 780-426-5050
+uidNumber: 3001446
+gidNumber: 3001446
+homeDirectory: /home/u001446
+o: Grid of cbm: U of bxd
+title: Faculty
+employeeType: faculty
+employeeNumber: aab-446
+preferredLanguage: en
+ccPrimaryEmail: user1446@some-uni.ca
+cci: aab-446
+ccCertSubject: /C=CA/O=computecanada/OU=People/CN=Johnbbx Faculty aab-446
+loginShell: /sbin/nologin
+shadowExpire: 1
+userPassword:: e0NSWVBUfUJPR1VTLUlOQUNUSVZF
+
+dn: cn=u001446,ou=Group,dc=computecanada,dc=ca
+changetype: add
+cn: u001446
+objectClass: posixGroup
+gidNumber: 3001446
+
+dn: uid=u001814,ou=People,dc=computecanada,dc=ca
+changetype: add
+uid: u001814
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: inetOrgPerson
+objectClass: ccAccount
+objectClass: ccPerson
+cn: Johnbqb Faculty
+sn: Faculty
+givenName: Johnbqb
+mail: user1814@some-uni.ca
+telephoneNumber: 780-426-5050
+uidNumber: 3001814
+gidNumber: 3001814
+homeDirectory: /home/u001814
+o: Grid of cry: U of cnj
+title: Faculty
+employeeType: faculty
+employeeNumber: aab-814
+preferredLanguage: en
+ccPrimaryEmail: user1814@some-uni.ca
+cci: aab-814
+ccCertSubject: /C=CA/O=computecanada/OU=People/CN=Johnbqb Faculty aab-814
+userPassword:: e0NSWVBUfUJPR1VTLUlOQUNUSVZF
+loginShell: /sbin/nologin
+shadowExpire: 1
+
+dn: cn=u001814,ou=Group,dc=computecanada,dc=ca
+changetype: add
+cn: u001814
+objectClass: posixGroup
+gidNumber: 3001814
+
+dn: cn=service39,ou=Group,dc=computecanada,dc=ca
+changetype: add
+cn: service39
+objectClass: posixGroup
+gidNumber: 8000000
+description: Description: service45 description
+description: Type: Generic Service
+
+dn: cn=def-u001814,ou=Group,dc=computecanada,dc=ca
+changetype: add
+cn: def-u001814
+objectClass: posixGroup
+objectClass: ccAllocation
+gidNumber: 23000123
+description: Default Resource Allocation Project
+memberUid: u001814
+ccRapi: aab-814-aa
+ccRapType: default
+ccRapStatus: active
+ccResponsible: aab-814
+
+dn: uid=u001815,ou=People,dc=computecanada,dc=ca
+changetype: add
+uid: u001815
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: inetOrgPerson
+objectClass: ccAccount
+objectClass: ccPerson
+cn: Johnbqc Root
+sn: Root
+givenName: Johnbqc
+mail: user1815@some-uni.ca
+telephoneNumber: 780-426-5050
+uidNumber: 3001815
+gidNumber: 3001815
+homeDirectory: /home/u001815
+o: Grid of crz: U of cnk
+title: CC Consortium Staff
+employeeType: nullstaff
+employeeType: root
+employeeNumber: aab-815
+preferredLanguage: en
+ccPrimaryEmail: user1815@some-uni.ca
+cci: aab-815
+ccCertSubject: /C=CA/O=computecanada/OU=People/CN=Johnbqc Root aab-815
+ccSupportAgreement: unknown
+userPassword:: e0NSWVBUfUJPR1VTLUlOQUNUSVZF
+loginShell: /sbin/nologin
+shadowExpire: 1
+
+dn: cn=u001815,ou=Group,dc=computecanada,dc=ca
+changetype: add
+cn: u001815
+objectClass: posixGroup
+gidNumber: 3001815
+
+dn: uid=u001816,ou=People,dc=computecanada,dc=ca
+changetype: add
+uid: u001816
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: inetOrgPerson
+objectClass: ccAccount
+objectClass: ccPerson
+cn: Johnbqd Faculty
+sn: Faculty
+givenName: Johnbqd
+mail: user1816@some-uni.ca
+telephoneNumber: 780-426-5050
+uidNumber: 3001816
+gidNumber: 3001816
+homeDirectory: /home/u001816
+o: Grid of csa: U of cnl
+title: Faculty
+employeeType: faculty
+employeeNumber: aab-816
+preferredLanguage: en
+ccPrimaryEmail: user1816@some-uni.ca
+cci: aab-816
+ccCertSubject: /C=CA/O=computecanada/OU=People/CN=Johnbqd Faculty aab-816
+ccSupportAgreement: unknown
+userPassword:: e0NSWVBUfUJPR1VTLUlOQUNUSVZF
+loginShell: /sbin/nologin
+shadowExpire: 1
+
+dn: cn=u001816,ou=Group,dc=computecanada,dc=ca
+changetype: add
+cn: u001816
+objectClass: posixGroup
+gidNumber: 3001816
+
+dn: cn=def-u001815,ou=Group,dc=computecanada,dc=ca
+changetype: add
+cn: def-u001815
+objectClass: posixGroup
+objectClass: ccAllocation
+gidNumber: 23000123
+description: Default Resource Allocation Project
+memberUid: u001815
+ccRapi: aab-815-aa
+ccRapType: default
+ccRapStatus: active
+ccResponsible: aab-815
+
+dn: cn=def-u001815-ab,ou=Group,dc=computecanada,dc=ca
+changetype: add
+cn: def-u001815-ab
+objectClass: posixGroup
+objectClass: ccAllocation
+gidNumber: 23000123
+description: Default Resource Allocation Project
+memberUid: u001815
+ccRapi: aab-815-ab
+ccRapType: default
+ccRapStatus: active
+ccResponsible: aab-815
+
+dn: cn=def-u001816,ou=Group,dc=computecanada,dc=ca
+changetype: add
+cn: def-u001816
+objectClass: posixGroup
+objectClass: ccAllocation
+gidNumber: 23000123
+description: Default Resource Allocation Project
+memberUid: u001816
+ccRapi: aab-816-aa
+ccRapType: default
+ccRapStatus: active
+ccResponsible: aab-816
+
+dn: uid=u001817,ou=People,dc=computecanada,dc=ca
+changetype: add
+uid: u001817
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: inetOrgPerson
+objectClass: ccAccount
+objectClass: ccPerson
+cn: Johnbqe Root
+sn: Root
+givenName: Johnbqe
+mail: user1817@some-uni.ca
+telephoneNumber: 780-426-5050
+uidNumber: 3001817
+gidNumber: 3001817
+homeDirectory: /home/u001817
+o: Grid of csb: U of cnm
+title: CC Consortium Staff
+employeeType: nullstaff
+employeeType: root
+employeeNumber: aab-817
+preferredLanguage: en
+ccPrimaryEmail: user1817@some-uni.ca
+cci: aab-817
+ccCertSubject: /C=CA/O=computecanada/OU=People/CN=Johnbqe Root aab-817
+ccSupportAgreement: unknown
+userPassword:: e0NSWVBUfUJPR1VTLUlOQUNUSVZF
+loginShell: /sbin/nologin
+shadowExpire: 1
+
+dn: cn=u001817,ou=Group,dc=computecanada,dc=ca
+changetype: add
+cn: u001817
+objectClass: posixGroup
+gidNumber: 3001817
+
+dn: uid=u001818,ou=People,dc=computecanada,dc=ca
+changetype: add
+uid: u001818
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: inetOrgPerson
+objectClass: ccAccount
+objectClass: ccPerson
+cn: Johnbqf Faculty
+sn: Faculty
+givenName: Johnbqf
+mail: user1818@some-uni.ca
+telephoneNumber: 780-426-5050
+uidNumber: 3001818
+gidNumber: 3001818
+homeDirectory: /home/u001818
+o: Grid of csc: U of cnn
+title: Faculty
+employeeType: faculty
+employeeNumber: aab-818
+preferredLanguage: en
+ccPrimaryEmail: user1818@some-uni.ca
+cci: aab-818
+ccCertSubject: /C=CA/O=computecanada/OU=People/CN=Johnbqf Faculty aab-818
+ccSupportAgreement: none
+userPassword:: e0NSWVBUfUJPR1VTLUlOQUNUSVZF
+loginShell: /sbin/nologin
+shadowExpire: 1
+
+dn: cn=u001818,ou=Group,dc=computecanada,dc=ca
+changetype: add
+cn: u001818
+objectClass: posixGroup
+gidNumber: 3001818
+
+dn: cn=def-u001817,ou=Group,dc=computecanada,dc=ca
+changetype: add
+cn: def-u001817
+objectClass: posixGroup
+objectClass: ccAllocation
+gidNumber: 23000123
+description: Default Resource Allocation Project
+memberUid: u001817
+ccRapi: aab-817-aa
+ccRapType: default
+ccRapStatus: active
+ccResponsible: aab-817
+
+dn: cn=def-u001817-ab,ou=Group,dc=computecanada,dc=ca
+changetype: add
+cn: def-u001817-ab
+objectClass: posixGroup
+objectClass: ccAllocation
+gidNumber: 23000123
+description: Default Resource Allocation Project
+memberUid: u001817
+ccRapi: aab-817-ab
+ccRapType: default
+ccRapStatus: active
+ccResponsible: aab-817
+
+dn: cn=def-u001818,ou=Group,dc=computecanada,dc=ca
+changetype: add
+cn: def-u001818
+objectClass: posixGroup
+objectClass: ccAllocation
+gidNumber: 23000123
+description: Default Resource Allocation Project
+memberUid: u001818
+ccRapi: aab-818-aa
+ccRapType: default
+ccRapStatus: active
+ccResponsible: aab-818
+
+dn: uid=u001819,ou=People,dc=computecanada,dc=ca
+changetype: add
+uid: u001819
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: inetOrgPerson
+objectClass: ccAccount
+objectClass: ccPerson
+cn: Johnbqg Manager
+sn: Manager
+givenName: Johnbqg
+mail: user1819@some-uni.ca
+telephoneNumber: 780-426-5050
+uidNumber: 3001819
+gidNumber: 3001819
+homeDirectory: /home/u001819
+o: Grid of csd: U of cno
+title: CC Consortium Staff
+employeeType: nullstaff
+employeeType: manager
+employeeNumber: aab-819
+preferredLanguage: en
+ccPrimaryEmail: user1819@some-uni.ca
+cci: aab-819
+ccCertSubject: /C=CA/O=computecanada/OU=People/CN=Johnbqg Manager aab-819
+userPassword:: e0NSWVBUfUJPR1VTLUlOQUNUSVZF
+loginShell: /sbin/nologin
+shadowExpire: 1
+
+dn: cn=u001819,ou=Group,dc=computecanada,dc=ca
+changetype: add
+cn: u001819
+objectClass: posixGroup
+gidNumber: 3001819
+
+dn: cn=def-u001819,ou=Group,dc=computecanada,dc=ca
+changetype: add
+cn: def-u001819
+objectClass: posixGroup
+objectClass: ccAllocation
+gidNumber: 23000123
+description: Default Resource Allocation Project
+memberUid: u001819
+ccRapi: aab-819-aa
+ccRapType: default
+ccRapStatus: active
+ccResponsible: aab-819
+
+dn: cn=def-u001819-ab,ou=Group,dc=computecanada,dc=ca
+changetype: add
+cn: def-u001819-ab
+objectClass: posixGroup
+objectClass: ccAllocation
+gidNumber: 23000123
+description: Default Resource Allocation Project
+memberUid: u001819
+ccRapi: aab-819-ab
+ccRapType: default
+ccRapStatus: active
+ccResponsible: aab-819
+
+dn: uid=u001820,ou=People,dc=computecanada,dc=ca
+changetype: add
+uid: u001820
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: inetOrgPerson
+objectClass: ccAccount
+objectClass: ccPerson
+cn: Johnbqh Faculty
+sn: Faculty
+givenName: Johnbqh
+mail: user1820@some-uni.ca
+telephoneNumber: 780-426-5050
+uidNumber: 3001820
+gidNumber: 3001820
+homeDirectory: /home/u001820
+o: Grid of cse: U of cnp
+title: Faculty
+employeeNumber: aab-820
+preferredLanguage: en
+ccPrimaryEmail: user1820@some-uni.ca
+cci: aab-820
+ccCertSubject: /C=CA/O=computecanada/OU=People/CN=Johnbqh Faculty aab-820
+userPassword:: e0NSWVBUfUJPR1VTLUlOQUNUSVZF
+loginShell: /sbin/nologin
+shadowExpire: 1
+
+dn: cn=u001820,ou=Group,dc=computecanada,dc=ca
+changetype: add
+cn: u001820
+objectClass: posixGroup
+gidNumber: 3001820
+
+dn: cn=def-u001820,ou=Group,dc=computecanada,dc=ca
+changetype: add
+cn: def-u001820
+objectClass: posixGroup
+objectClass: ccAllocation
+gidNumber: 23000123
+description: Default Resource Allocation Project
+ccRapi: aab-820-aa
+ccRapType: default
+ccResponsible: aab-820
+ccRapStatus: expired=2017-05-30
+
+dn: uid=u001821,ou=People,dc=computecanada,dc=ca
+changetype: add
+uid: u001821
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: inetOrgPerson
+objectClass: ccAccount
+objectClass: ccPerson
+cn: Johnbqi Faculty
+sn: Faculty
+givenName: Johnbqi
+mail: user1821@some-uni.ca
+telephoneNumber: 780-426-5050
+uidNumber: 3001821
+gidNumber: 3001821
+homeDirectory: /home/u001821
+o: Grid of csf: U of cnq
+title: Faculty
+employeeType: faculty
+employeeNumber: aab-821
+preferredLanguage: en
+ccPrimaryEmail: user1821@some-uni.ca
+cci: aab-821
+ccCertSubject: /C=CA/O=computecanada/OU=People/CN=Johnbqi Faculty aab-821
+userPassword:: e0NSWVBUfUJPR1VTLUlOQUNUSVZF
+loginShell: /sbin/nologin
+shadowExpire: 1
+
+dn: cn=u001821,ou=Group,dc=computecanada,dc=ca
+changetype: add
+cn: u001821
+objectClass: posixGroup
+gidNumber: 3001821
+
+dn: cn=def-u001821,ou=Group,dc=computecanada,dc=ca
+changetype: add
+cn: def-u001821
+objectClass: posixGroup
+objectClass: ccAllocation
+gidNumber: 23000123
+description: Default Resource Allocation Project
+memberUid: u001821
+ccRapi: aab-821-aa
+ccRapType: default
+ccRapStatus: active
+ccResponsible: aab-821
+
+dn: uid=u001822,ou=People,dc=computecanada,dc=ca
+changetype: add
+uid: u001822
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: inetOrgPerson
+objectClass: ccAccount
+objectClass: ccPerson
+cn: Johnbqj Faculty
+sn: Faculty
+givenName: Johnbqj
+mail: user1822@some-uni.ca
+telephoneNumber: 780-426-5050
+uidNumber: 3001822
+gidNumber: 3001822
+homeDirectory: /home/u001822
+o: Grid of csg: U of cnr
+title: Faculty
+employeeType: faculty
+employeeNumber: aab-822
+preferredLanguage: en
+ccPrimaryEmail: user1822@some-uni.ca
+cci: aab-822
+ccCertSubject: /C=CA/O=computecanada/OU=People/CN=Johnbqj Faculty aab-822
+userPassword:: e0NSWVBUfUJPR1VTLUlOQUNUSVZF
+loginShell: /sbin/nologin
+shadowExpire: 1
+
+dn: cn=u001822,ou=Group,dc=computecanada,dc=ca
+changetype: add
+cn: u001822
+objectClass: posixGroup
+gidNumber: 3001822
+
+dn: cn=def-u001822,ou=Group,dc=computecanada,dc=ca
+changetype: add
+cn: def-u001822
+objectClass: posixGroup
+objectClass: ccAllocation
+gidNumber: 23000123
+description: Default Resource Allocation Project
+memberUid: u001822
+ccRapi: aab-822-aa
+ccRapType: default
+ccRapStatus: active
+ccResponsible: aab-822
+
+dn: uid=u001823,ou=People,dc=computecanada,dc=ca
+changetype: add
+uid: u001823
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: inetOrgPerson
+objectClass: ccAccount
+objectClass: ccPerson
+cn: Johnbqk Root
+sn: Root
+givenName: Johnbqk
+mail: user1823@some-uni.ca
+telephoneNumber: 780-426-5050
+uidNumber: 3001823
+gidNumber: 3001823
+homeDirectory: /home/u001823
+o: Grid of csh: U of cns
+title: CC Consortium Staff
+employeeType: nullstaff
+employeeType: root
+employeeNumber: aab-823
+preferredLanguage: en
+ccPrimaryEmail: user1823@some-uni.ca
+cci: aab-823
+ccCertSubject: /C=CA/O=computecanada/OU=People/CN=Johnbqk Root aab-823
+ccSupportAgreement: unknown
+userPassword:: e0NSWVBUfUJPR1VTLUlOQUNUSVZF
+loginShell: /sbin/nologin
+shadowExpire: 1
+
+dn: cn=u001823,ou=Group,dc=computecanada,dc=ca
+changetype: add
+cn: u001823
+objectClass: posixGroup
+gidNumber: 3001823
+
+dn: uid=u001824,ou=People,dc=computecanada,dc=ca
+changetype: add
+uid: u001824
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: inetOrgPerson
+objectClass: ccAccount
+objectClass: ccPerson
+cn: Johnbql Faculty
+sn: Faculty
+givenName: Johnbql
+mail: user1824@some-uni.ca
+telephoneNumber: 780-426-5050
+uidNumber: 3001824
+gidNumber: 3001824
+homeDirectory: /home/u001824
+o: Grid of csi: U of cnt
+title: Faculty
+employeeType: faculty
+employeeNumber: aab-824
+preferredLanguage: en
+ccPrimaryEmail: user1824@some-uni.ca
+cci: aab-824
+ccCertSubject: /C=CA/O=computecanada/OU=People/CN=Johnbql Faculty aab-824
+ccSupportAgreement: all
+userPassword:: e0NSWVBUfUJPR1VTLUlOQUNUSVZF
+loginShell: /sbin/nologin
+shadowExpire: 1
+
+dn: cn=u001824,ou=Group,dc=computecanada,dc=ca
+changetype: add
+cn: u001824
+objectClass: posixGroup
+gidNumber: 3001824
+
+dn: cn=def-u001823,ou=Group,dc=computecanada,dc=ca
+changetype: add
+cn: def-u001823
+objectClass: posixGroup
+objectClass: ccAllocation
+gidNumber: 23000123
+description: Default Resource Allocation Project
+memberUid: u001823
+ccRapi: aab-823-aa
+ccRapType: default
+ccRapStatus: active
+ccResponsible: aab-823
+
+dn: cn=def-u001823-ab,ou=Group,dc=computecanada,dc=ca
+changetype: add
+cn: def-u001823-ab
+objectClass: posixGroup
+objectClass: ccAllocation
+gidNumber: 23000123
+description: Default Resource Allocation Project
+memberUid: u001823
+ccRapi: aab-823-ab
+ccRapType: default
+ccRapStatus: active
+ccResponsible: aab-823
+
+dn: cn=def-u001824,ou=Group,dc=computecanada,dc=ca
+changetype: add
+cn: def-u001824
+objectClass: posixGroup
+objectClass: ccAllocation
+gidNumber: 23000123
+description: Default Resource Allocation Project
+memberUid: u001824
+ccRapi: aab-824-aa
+ccRapType: default
+ccRapStatus: active
+ccResponsible: aab-824
+
+dn: uid=whatever,ou=People,dc=computecanada,dc=ca
+changetype: add
+uid: whatever
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: inetOrgPerson
+cn: Joe Whatever
+sn: Whatever
+uidNumber: 94000001
+gidNumber: 94000001
+userPassword:: e0NSWVBUfXJhbmRvbWxvb2tpbmdzdHVmZg==
+homeDirectory: /home/whatever
+loginShell: /bin/bash
+
+dn: uid=u001825,ou=People,dc=computecanada,dc=ca
+changetype: add
+uid: u001825
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: inetOrgPerson
+objectClass: ccAccount
+objectClass: ccPerson
+cn: Johnbqm Root
+sn: Root
+givenName: Johnbqm
+mail: user1825@some-uni.ca
+telephoneNumber: 780-426-5050
+uidNumber: 3001825
+gidNumber: 3001825
+homeDirectory: /home/u001825
+userPassword:: e0NSWVBUfSQ2JHpxWUpMN1R3V0ZCUy9Yd3gkNk1QMHpZWEdIYzVIUUNncTZja
+ DNHb1BKNFZhSGZyYWtseGh6VEVjM3Z4d29JRGoxMG1WWEpGaGNnYzlQZjY5dWJMYjBBQXVnYld0
+ SGZjM0FWSE16TzA=
+loginShell: /bin/bash
+o: Grid of csj: U of cnu
+title: CC Consortium Staff
+employeeType: nullstaff
+employeeType: root
+employeeNumber: aab-825
+preferredLanguage: en
+shadowExpire: -1
+ccPrimaryEmail: user1825@some-uni.ca
+cci: aab-825
+ccCertSubject: /C=CA/O=computecanada/OU=People/CN=Johnbqm Root aab-825
+
+dn: cn=u001825,ou=Group,dc=computecanada,dc=ca
+changetype: add
+cn: u001825
+objectClass: posixGroup
+gidNumber: 3001825
+
+dn: uid=u001826,ou=People,dc=computecanada,dc=ca
+changetype: add
+uid: u001826
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: inetOrgPerson
+objectClass: ccAccount
+objectClass: ccPerson
+cn: Johnbqn Faculty
+sn: Faculty
+givenName: Johnbqn
+mail: user1826@some-uni.ca
+telephoneNumber: 780-426-5050
+uidNumber: 3001826
+gidNumber: 3001826
+homeDirectory: /home/u001826
+userPassword:: e0NSWVBUfSQ2JE5abVA5N1R5YmRsV0RqLkkkaFc0N2psVTJtTlZFcklTUjlqY
+ nJQSWw2WmQzcFlZZkZZZ3RXYjN3YXplbjN0cm1CdEFYd1JjMGdpQ3lLdEp0eHh6L0NyVnFLSVc2
+ V2ZqdTJpa1hKZTE=
+loginShell: /bin/bash
+o: Grid of csk: U of cnv
+title: Faculty
+employeeType: faculty
+employeeNumber: aab-826
+preferredLanguage: en
+shadowExpire: -1
+ccPrimaryEmail: user1826@some-uni.ca
+cci: aab-826
+ccCertSubject: /C=CA/O=computecanada/OU=People/CN=Johnbqn Faculty aab-826
+
+dn: cn=u001826,ou=Group,dc=computecanada,dc=ca
+changetype: add
+cn: u001826
+objectClass: posixGroup
+gidNumber: 3001826
+
+dn: uid=u001827,ou=People,dc=computecanada,dc=ca
+changetype: add
+uid: u001827
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: inetOrgPerson
+objectClass: ccAccount
+objectClass: ccPerson
+cn: Johnbqo Faculty
+sn: Faculty
+givenName: Johnbqo
+mail: user1827@some-uni.ca
+telephoneNumber: 780-426-5050
+uidNumber: 3001827
+gidNumber: 3001827
+homeDirectory: /home/u001827
+userPassword:: e0NSWVBUfSQ2JEwvZC9odnUvbW5YV3BzclgkRnNQVFNPdGxnMGwyWjNXOXNYd
+ GxhT3VId3E5TUNQVEhVOEd4a3BwNHlmWHVhZ0JQcDFiNUtSZHF5ZWhLdThNWWRyd0FIQmhDd1cx
+ ZjVaeFRGOC5YSS8=
+loginShell: /bin/bash
+o: Grid of csl: U of cnw
+title: Faculty
+employeeType: faculty
+employeeNumber: aab-827
+preferredLanguage: en
+shadowExpire: -1
+ccPrimaryEmail: user1827@some-uni.ca
+cci: aab-827
+ccCertSubject: /C=CA/O=computecanada/OU=People/CN=Johnbqo Faculty aab-827
+ccServiceAccess: service40
+
+dn: cn=u001827,ou=Group,dc=computecanada,dc=ca
+changetype: add
+cn: u001827
+objectClass: posixGroup
+gidNumber: 3001827
+
+dn: cn=def-u001825,ou=Group,dc=computecanada,dc=ca
+changetype: add
+cn: def-u001825
+objectClass: posixGroup
+objectClass: ccAllocation
+gidNumber: 23000123
+description: Default Resource Allocation Project
+memberUid: u001825
+ccRapi: aab-825-aa
+ccRapType: default
+ccRapStatus: active
+ccResponsible: aab-825
+
+dn: cn=def-u001825-ab,ou=Group,dc=computecanada,dc=ca
+changetype: add
+cn: def-u001825-ab
+objectClass: posixGroup
+objectClass: ccAllocation
+gidNumber: 23000123
+description: Default Resource Allocation Project
+memberUid: u001825
+ccRapi: aab-825-ab
+ccRapType: default
+ccRapStatus: active
+ccResponsible: aab-825
+
+dn: cn=def-u001826,ou=Group,dc=computecanada,dc=ca
+changetype: add
+cn: def-u001826
+objectClass: posixGroup
+objectClass: ccAllocation
+gidNumber: 23000123
+description: Default Resource Allocation Project
+memberUid: u001826
+ccRapi: aab-826-aa
+ccRapType: default
+ccRapStatus: active
+ccResponsible: aab-826
+
+dn: cn=def-u001827,ou=Group,dc=computecanada,dc=ca
+changetype: add
+cn: def-u001827
+objectClass: posixGroup
+objectClass: ccAllocation
+gidNumber: 23000123
+description: Default Resource Allocation Project
+memberUid: u001827
+ccRapi: aab-827-aa
+ccRapType: default
+ccRapStatus: active
+ccResponsible: aab-827
