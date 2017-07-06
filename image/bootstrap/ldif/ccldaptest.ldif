@@ -29,6 +29,122 @@ objectClass: posixAccount
 objectClass: eduPerson
 objectClass: top
 
+dn: uid=bob,ou=People,dc=computecanada,dc=ca
+changetype: add
+uid: bob
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: inetOrgPerson
+objectClass: ccAccount
+objectClass: ccPerson
+cn: Bob Dobbs
+sn: Dobbs
+givenName: Bob
+mail: bob@subgenious.org
+telephoneNumber: 666-666-6666
+uidNumber: 6000257
+gidNumber: 6000257
+homeDirectory: /home/bdobbs
+o: Grid of ix: C of S
+title: Faculty
+employeeType: staff 
+employeeNumber: aaa-666
+preferredLanguage: en
+ccPrimaryEmail: bob@subgenious.org
+cci: aaa-666
+ccCertSubject: /C=CA/O=computecanada/OU=People/CN=Bob Dobbs aaa-666
+ccSupportAgreement: all
+userPassword: {SSHA}AuRgBzMbP4AkN0v7XQ8PjcqbDEpzYWx0 
+loginShell: /sbin/nologin
+shadowExpire: 1
+
+dn: uid=mary,ou=People,dc=computecanada,dc=ca
+changetype: add
+uid: mary
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: inetOrgPerson
+objectClass: ccAccount
+objectClass: ccPerson
+cn: Mary Dobbs
+sn: Dobbs
+givenName: Mary
+mail: mary@subgenious.org
+telephoneNumber: 666-666-6666
+uidNumber: 6000258
+gidNumber: 6000258
+homeDirectory: /home/mdobbs
+o: Grid of ix: C of S
+title: Faculty
+employeeType: staff 
+employeeNumber: aaa-333
+preferredLanguage: en
+ccPrimaryEmail: mary@subgenious.org
+cci: aaa-333
+ccCertSubject: /C=CA/O=computecanada/OU=People/CN=Mary Dobbs aaa-333
+ccSupportAgreement: all
+userPassword: {SSHA}A7maRWRVBYVBP7fjtPk+AfyT6hpzYWx0
+loginShell: /sbin/nologin
+shadowExpire: 1
+
+dn: uid=sue,ou=People,dc=computecanada,dc=ca
+changetype: add
+uid: sue
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: inetOrgPerson
+objectClass: ccAccount
+objectClass: ccPerson
+cn: Sue Dobbs
+sn: Dobbs
+givenName: Sue 
+mail: Sue@subgenious.org
+telephoneNumber: 666-666-6666
+uidNumber: 6000259
+gidNumber: 6000259
+homeDirectory: /home/sdobbs
+o: Grid of ix: C of S
+title: Faculty
+employeeType: staff 
+employeeNumber: aaa-444
+preferredLanguage: en
+ccPrimaryEmail: sue@subgenious.org
+cci: aaa-444
+ccCertSubject: /C=CA/O=computecanada/OU=People/CN=Sue Dobbs aaa-444
+ccSupportAgreement: all
+userPassword: {SSHA}DBPaHM8jhZ3B/JnHKR1rpdWD6MRzYWx0 
+loginShell: /sbin/nologin
+shadowExpire: 1
+
+dn: uid=dan,ou=People,dc=computecanada,dc=ca
+changetype: add
+uid: dan
+objectClass: posixAccount
+objectClass: shadowAccount
+objectClass: inetOrgPerson
+objectClass: ccAccount
+objectClass: ccPerson
+cn: Dan Dobbs
+sn: Dobbs
+givenName: Dan 
+mail: dan@subgenious.org
+telephoneNumber: 666-666-6666
+uidNumber: 6000260
+gidNumber: 6000260
+homeDirectory: /home/ddobbs
+o: Grid of ix: C of S
+title: Faculty
+employeeType: staff 
+employeeNumber: aaa-555
+preferredLanguage: en
+ccPrimaryEmail: dan@subgenious.org
+cci: aaa-555
+ccCertSubject: /C=CA/O=computecanada/OU=People/CN=Dan Dobbs aaa-555
+ccSupportAgreement: all
+userPassword: {SSHA}ouXHx1fGYaLhtVNhSoblhPyA7iRzYWx0 
+loginShell: /sbin/nologin
+shadowExpire: 1
+
 dn: uid=u000257,ou=People,dc=computecanada,dc=ca
 changetype: add
 uid: u000257
@@ -54,7 +170,9 @@ ccPrimaryEmail: user257@some-uni.ca
 cci: aaa-257
 ccCertSubject: /C=CA/O=computecanada/OU=People/CN=Johniw Faculty aaa-257
 ccSupportAgreement: all
-userPassword:: e0NSWVBUfUJPR1VTLUlOQUNUSVZF
+userPassword:: e0NSWVBUfSQ2JE5abVA5N1R5YmRsV0RqLkkkaFc0N2psVTJtTlZFcklTUjlqY
+ nJQSWw2WmQzcFlZZkZZZ3RXYjN3YXplbjN0cm1CdEFYd1JjMGdpQ3lLdEp0eHh6L0NyVnFLSVc2
+ V2ZqdTJpa1hKZTE=
 loginShell: /sbin/nologin
 shadowExpire: 1
 
